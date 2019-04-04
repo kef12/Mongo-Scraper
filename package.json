@@ -1,0 +1,31 @@
+{
+  "name": "mongo-scraper",
+  "version": "1.0.0",
+  "description": "MongoDB-Scraper",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kef12/Mongo-Scraper.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kef12/Mongo-Scraper/issues"
+  },
+  "homepage": "https://github.com/kef12/Mongo-Scraper#readme",
+  "dependencies": {
+    "axios": "^0.18.0",
+    "body-parser": "^1.18.3",
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.16.4",
+    "express-handlebars": "^3.0.2",
+    "handlebars": "^4.1.1",
+    "mongoose": "^5.4.20",
+    "morgan": "^1.9.1",
+    "request": "^2.88.0",
+    "serve-favicon": "^2.5.0"
+  }
+}
