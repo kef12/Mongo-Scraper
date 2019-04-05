@@ -44,6 +44,12 @@ mongoose.Promise = Promise;
 var MONGODB_URI = process.env.MONGODB_URI || "mongodb://127.0.01/mongoScraper";
 mongoose.connect(MONGODB_URI);
 
+var connection = mongoose.connection;
+
+connection.on("connected", function() {
+console.log("connected to db");
+})
+
 // Routes
 
 // Route for getting all saved Articles from the db
